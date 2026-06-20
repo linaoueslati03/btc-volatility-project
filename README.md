@@ -6,9 +6,9 @@ Projet de prédiction de la volatilité future du BTC (BTCUSDT 1h, données Bina
 Nettoyer le dataset, créer des features, explorer les données (EDA), puis entraîner un modèle scikit-learn.
 
 ## Répartition
-- **Membre 1 — Nettoyage** (`01_cleaning.py`) → produit `data/btc_clean.csv`
-- **Membre 2 — Features & target** (`02_features.py`) → produit `data/btc_features.csv`
-- **Membre 3 — EDA & visualisations** (`03_eda.ipynb`)
+- **Membre 1: Celia — Nettoyage** (`01_cleaning.py`) → produit `data/btc_clean.csv`
+- **Membre 2: Lina — Features & target** (`02_features.py`) → produit `data/btc_features.csv`
+- **Membre 3: Amandine — EDA & visualisations** (`03_eda.ipynb`)
 
 ## Structure
 ```
