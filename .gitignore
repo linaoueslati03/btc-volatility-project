@@ -1,0 +1,10 @@
+# Données (trop lourdes pour git — à partager via Drive)
+*.csv
+data/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+.env
