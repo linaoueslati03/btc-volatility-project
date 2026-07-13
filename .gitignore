@@ -1,15 +1,7 @@
-<<<<<<< Updated upstream
-# Fichiers temporaires Python
-=======
-# Données (trop lourdes pour git — à partager via Drive)
-*.csv
-data/
-
 # Mémoire Claude (locale, ne pas versionner)
 CLAUDE.md
 
 # Python
->>>>>>> Stashed changes
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
@@ -17,14 +9,6 @@ __pycache__/
 # Environnement virtuel
 venv/
 .env
-
-# Données brutes et nettoyées
-data/raw/*
-data/processed/*
-
-# Garder les dossiers data visibles sur GitHub
-!data/raw/.gitkeep
-!data/processed/.gitkeep
 
 # Fichiers système
 .DS_Store
