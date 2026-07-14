@@ -69,4 +69,4 @@ Certaines colonnes créent des cases vides (**NaN** : case sans valeur) :
 - au **début** du tableau : les calculs sur plusieurs heures ont besoin d'un historique qui n'existe pas encore (ex. `rv_168h` a besoin de 168 heures avant de donner un résultat) ;
 - à la **fin** du tableau : la target regarde 24 heures dans le futur, qui n'existent pas pour les dernières lignes.
 
-On **supprime ces lignes incomplètes** pour ne garder que les lignes où toutes les colonnes ont une valeur. Le fichier final contient 4176 lignes et 28 colonnes.
+On **supprime ces lignes incomplètes** pour ne garder que les lignes où toutes les colonnes ont une valeur. Le fichier final contient 8568 lignes et 28 colonnes (dataset étendu à 12 mois ; c'était 4176 lignes sur les 6 mois initiaux).

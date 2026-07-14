@@ -289,7 +289,7 @@ df_features = df.dropna().reset_index(drop=True)
 df_features.to_csv("../data/processed/btc_features.csv", index=False)
 ```
 
-**Résultat final : 4176 lignes et 28 colonnes** (les colonnes brutes conservées + les 16 features + la target).
+**Résultat final : 8568 lignes et 28 colonnes** (les colonnes brutes conservées + les 16 features + la target). *(C'était 4176 lignes sur les 6 mois de données initiaux ; le dataset couvre maintenant 12 mois.)*
 
 ---
 
